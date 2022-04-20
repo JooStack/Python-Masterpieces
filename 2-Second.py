@@ -1,0 +1,1 @@
+# Finding Amicable Numbers with Def function

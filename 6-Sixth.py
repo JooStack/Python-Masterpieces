@@ -1,0 +1,15 @@
+# Convert Decimal to Roman Number
+
+def convert_romans(n):
+        num_list = [1,4,5,9,10,40,50,90,100,400,500,900,1000]
+        romans = ['I','IV','V','IX', 'X','XL', 'L','XC', 'C','CD', 'D','CM','M']
+        i = 12
+        roman_numeral = ''
+        while n != 0:
+            if num_list[i] <= n:
+                roman_numeral += romans[i]
+                n = n - num_list[i]
+            else:
+                i -= 1
+        return roman_numeral
+print(convert_romans(944))

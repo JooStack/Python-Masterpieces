@@ -12,4 +12,7 @@ def convert_romans(n):
             else:
                 i -= 1
         return roman_numeral
-print(convert_romans(944))
+
+decimal_number = int(input("Enter decimal number..."))
+
+print(convert_romans(decimal_number))

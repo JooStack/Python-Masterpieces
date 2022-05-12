@@ -14,5 +14,5 @@ def rom_to_dec(rom) :
             x+=1
     return num
 
-
-print(rom_to_dec("CMXLIV"))
+roman = input("Enter roman number..")
+print(rom_to_dec(roman))
